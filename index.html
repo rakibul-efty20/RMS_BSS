@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Restaurant | Authentic Saudi Cuisine</title>
+  </head>
+  <body>
+    <nav class="navbar" id="navbar">
+      <div class="navbar__container container">
+        <div class="navbar__logo">
+          <img src="./images/Logo.png" alt="Restaurant Logo" />
+        </div>
+
+        <div class="navbar__menu">
+          <ul class="navbar__menu-list">
+            <li class="navbar__menu-item">
+              <a
+                href="#home"
+                class="navbar__menu-link navbar__menu-link--active"
+                >Home</a
+              >
+            </li>
+            <li class="navbar__menu-item">
+              <a href="#about" class="navbar__menu-link">About</a>
+            </li>
+            <li class="navbar__menu-item">
+              <a href="#portfolio" class="navbar__menu-link">Portfolio</a>
+            </li>
+            <li class="navbar__menu-item">
+              <a href="#clients" class="navbar__menu-link">Clients</a>
+            </li>
+            <li class="navbar__menu-item">
+              <a href="#blog" class="navbar__menu-link">Blog</a>
+            </li>
+            <li class="navbar__menu-item">
+              <a href="#contact" class="navbar__menu-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="navbar__action">
+          <a href="#book" class="btn btn--primary">BOOK A TABLE</a>
+        </div>
+
+        <!-- Mobile Menu & Hamburger Icon -->
+        <div class="navbar__mobile-menu">
+          <div class="navbar__mobile-menu-toggle" id="mobile-menu-toggle">
+            <i class="fas fa-bars fa-2x"></i>
+          </div>
+          <!-- Mobile Menu Items -->
+          <div class="navbar__mobile-menu-items" id="mobile-menu-items">
+            <ul class="navbar__mobile-menu-list">
+              <li class="navbar__mobile-menu-item">
+                <a href="#home" class="navbar__mobile-menu-link">Home</a>
+              </li>
+              <li class="navbar__mobile-menu-item">
+                <a href="#about" class="navbar__mobile-menu-link">About</a>
+              </li>
+              <li class="navbar__mobile-menu-item">
+                <a href="#portfolio" class="navbar__mobile-menu-link"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="navbar__mobile-menu-item">
+                <a href="#clients" class="navbar__mobile-menu-link">Clients</a>
+              </li>
+              <li class="navbar__mobile-menu-item">
+                <a href="#blog" class="navbar__mobile-menu-link">Blog</a>
+              </li>
+              <li class="navbar__mobile-menu-item">
+                <a href="#contact" class="navbar__mobile-menu-link">Contact</a>
+              </li>
+              <li class="navbar__mobile-menu-item">
+                <a
+                  href="#book"
+                  class="btn btn--primary"
+                  style="display: block; text-align: center; margin-top: 1rem"
+                  >BOOK A TABLE
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero" id="home">
+      <div class="hero__container container">
+        <div class="hero__content">
+          <div class="hero__title-box">
+            <h1 class="hero__title">
+              TASTE THE AUTHENTIC <br />
+              SAUDI CUISINE
+            </h1>
+          </div>
+
+          <p class="hero__description">
+            Among the best Saudi chefs in the world, serving you something
+            beyond flavor.
+          </p>
+          <a href="#menu" class="btn btn--primary hero__btn">EXPLORE MENU</a>
+        </div>
+
+        <div class="hero__image-wrapper">
+          <img
+            src="./images/star-vector.png"
+            alt=""
+            class="hero__decoration-star"
+          />
+
+          <img
+            src="./images/hero-food.jpg"
+            alt="Delicious grilled meat and fries"
+            class="hero__image"
+          />
+
+          <div class="hero__badge">
+            <span class="hero__badge-text">TODAY<br />OFFER</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="about" id="about">
+      <div class="about__container container">
+        <div class="about__top">
+          <div class="about__image-wrapper">
+            <img
+              src="./images/about-burger.jpg"
+              alt="Delicious burger and beer"
+              class="about__image"
+            />
+            <div class="about__badge">
+              <div class="about__badge-circle">
+                <span class="about__badge-number">50+</span>
+              </div>
+              <span class="about__badge-text">Market<br />Experiences</span>
+            </div>
+          </div>
+          <div class="about__content">
+            <ul class="about__tabs">
+              <li class="about__tab about__tab--active">About</li>
+              <li class="about__tab">Experience</li>
+              <li class="about__tab">Contact</li>
+            </ul>
+
+            <h2 class="about__title">
+              EXCEPTIONAL CULINARY <br />
+              EXPERIENCE AND DELICIOUS FOOD
+            </h2>
+
+            <p class="about__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare
+              non sed est cursus. Vel hac convallis ipsum, facilisi odio
+              pellentesque bibendum viverra tempus. Lorem ipsum dolor sit amet
+              consectetur adipiscing elit do eiusmod tempor incididunt ut labore
+              et dolore magna minim veniam nostrud exercitation.
+            </p>
+
+            <div class="about__action">
+              <a href="#about" class="btn btn--primary">ABOUT MORE</a>
+              <div class="about__contact">
+                <i class="fa-solid fa-phone-volume about__contact-icon"></i>
+                <span class="about__contact-number">+88 3426 739 485</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about__features">
+          <div class="about__feature">
+            <div class="about__feature-icon-wrapper">
+              <i class="fa-solid fa-box about__feature-icon"></i>
+            </div>
+            <div class="about__feature-text">
+              <h3 class="about__feature-title">FAST DELIVERY</h3>
+              <p class="about__feature-subtitle">Within 30 minutes</p>
+            </div>
+          </div>
+          <div class="about__feature">
+            <div class="about__feature-icon-wrapper">
+              <i class="fa-solid fa-award about__feature-icon"></i>
+            </div>
+            <div class="about__feature-text">
+              <h3 class="about__feature-title">ABSOLUTE DINING</h3>
+              <p class="about__feature-subtitle">Best buffet restaurant</p>
+            </div>
+          </div>
+
+          <div class="about__feature">
+            <div class="about__feature-icon-wrapper">
+              <i class="fa-solid fa-bag-shopping about__feature-icon"></i>
+            </div>
+            <div class="about__feature-text">
+              <h3 class="about__feature-title">PICKUP DELIVERY</h3>
+              <p class="about__feature-subtitle">Grab your food order</p>
+            </div>
+          </div>
+        </div>
+
+        <img
+          src="./images/about-salad-plate.png"
+          alt=""
+          class="about__decoration-plate"
+        />
+      </div>
+    </section>
+    <!-- popular food-->
+    <section class="popular" id="menu">
+      <img
+        src="./images/peppers-decoration.png"
+        alt=""
+        class="popular__decoration"
+        aria-hidden="true"
+      />
+
+      <div class="popular__container container">
+        <div class="popular__header">
+          <div class="popular__title-box">
+            <p class="popular__subtitle">Crispy, Every Bite Taste</p>
+            <h2 class="popular__title">POPULAR FOOD ITEMS</h2>
+          </div>
+
+          <div class="popular__nav">
+            <button
+              class="popular__nav-btn"
+              id="prev-btn"
+              aria-label="Previous item"
+            >
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button
+              class="popular__nav-btn"
+              id="next-btn"
+              aria-label="Next item"
+            >
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="popular__carousel">
+          <div class="popular__track" id="carousel-track">
+            <div class="popular__card">
+              <img
+                src="./images/burger.png"
+                alt="Vegetables Burger"
+                class="popular__card-img"
+              />
+              <div class="popular__card-divider"></div>
+              <h3 class="popular__card-title">VEGETABLES BURGER</h3>
+              <p class="popular__card-desc">Barbecue Italian cuisine pizza</p>
+            </div>
+
+            <div class="popular__card">
+              <img
+                src="./images/pizza.png"
+                alt="Spacial Pizza"
+                class="popular__card-img"
+              />
+              <div class="popular__card-divider"></div>
+              <h3 class="popular__card-title">SPACIAL PIZZA</h3>
+              <p class="popular__card-desc">Barbecue Italian cuisine pizza</p>
+            </div>
+
+            <div class="popular__card">
+              <img
+                src="./images/fries.png"
+                alt="Spacial French Fries"
+                class="popular__card-img"
+              />
+              <div class="popular__card-divider"></div>
+              <h3 class="popular__card-title">SPACIAL FRENCH FRIES</h3>
+              <p class="popular__card-desc">Barbecue Italian cuisine</p>
+            </div>
+
+            <div class="popular__card">
+              <img
+                src="./images/chiken.png"
+                alt="Cuisine Chicken"
+                class="popular__card-img"
+              />
+              <div class="popular__card-divider"></div>
+              <h3 class="popular__card-title">CUISINE CHICKEN</h3>
+              <p class="popular__card-desc">Japanese Cuisine Chicken</p>
+            </div>
+
+            <div class="popular__card">
+              <img
+                src="./images/burger.png"
+                alt="Classic Burger"
+                class="popular__card-img"
+              />
+              <div class="popular__card-divider"></div>
+              <h3 class="popular__card-title">CLASSIC BURGER</h3>
+              <p class="popular__card-desc">American style beef burger</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- form -->
+    <section class="book" id="book">
+      <img
+        src="./images/book-plate.png"
+        alt=""
+        class="book__decoration-plate"
+        aria-hidden="true"
+      />
+
+      <div class="book__container container">
+        <div class="book__content">
+          <div class="book__header">
+            <p class="book__subtitle">Book Now</p>
+            <h2 class="book__title">BOOK YOUR TABLE</h2>
+            <p class="book__description">
+              Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu
+              leo molestie vel, ornare non id blandit netus.
+            </p>
+          </div>
+
+          <form class="book__form">
+            <div class="book__input-wrapper">
+              <input
+                type="text"
+                class="book__input"
+                placeholder="Your Name *"
+                required
+              />
+            </div>
+
+            <div class="book__input-wrapper">
+              <input
+                type="email"
+                class="book__input"
+                placeholder="Your Email"
+              />
+            </div>
+
+            <div class="book__input-wrapper">
+              <input
+                type="text"
+                class="book__input"
+                placeholder="Reservation Date"
+                onfocus="this.type = 'date'"
+                onblur="this.type = 'text'"
+              />
+              <i class="fa-regular fa-calendar book__input-icon"></i>
+            </div>
+
+            <div class="book__input-wrapper">
+              <select class="book__input book__select">
+                <option value="" disabled selected hidden>Total People</option>
+                <option value="1">1 Person</option>
+                <option value="2">2 People</option>
+                <option value="3">3 People</option>
+                <option value="4">4+ People</option>
+              </select>
+              <i class="fa-solid fa-sort book__input-icon"></i>
+            </div>
+
+            <div class="book__input-wrapper book__input-wrapper--textarea">
+              <textarea
+                class="book__input book__textarea"
+                placeholder="Message"
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn--primary book__btn">
+              BOOK NOW
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- testimonial -->
+    <section class="testimonial" id="reviews">
+      <img
+        src="./images/tomato-half.png"
+        alt=""
+        class="testimonial__deco-left"
+      />
+
+      <img src="./images/herbs.png" alt="" class="testimonial__deco-right" />
+
+      <div class="testimonial__container container">
+        <div class="testimonial__header">
+          <div class="testimonial__title-box">
+            <p class="testimonial__subtitle">Crispy,Every Bite Taste</p>
+            <h2 class="testimonial__title">WHAT SOME OF MY CUSTOMERS SAY</h2>
+          </div>
+
+          <div class="testimonial__nav">
+            <button class="testimonial__nav-btn" aria-label="Previous review">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button class="testimonial__nav-btn" aria-label="Next review">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="testimonial__content-wrapper">
+          <div class="testimonial__card">
+            <div class="testimonial__text-box">
+              <i class="fa-solid fa-quote-left testimonial__quote-icon"></i>
+              <p class="testimonial__quote-text">
+                You can't go wrong with Chicken Mandi, I had it twice. The
+                chicken was cooked perfectly, juicy & soft (usually mandi
+                chicken is a bit dry). I would defiantly recommend it.
+              </p>
+
+              <div class="testimonial__author">
+                <div class="testimonial__author-details">
+                  <h4 class="testimonial__author-name">KHALID AL DAWSRY</h4>
+                  <span class="testimonial__author-location"
+                    >Jeddah, Saudi</span
+                  >
+                </div>
+                <img
+                  src="./images/avatar.png"
+                  alt="Khalid Al Dawsry"
+                  class="testimonial__author-avatar"
+                />
+              </div>
+              <div class="testimonial__bottom-deco">
+                <div class="testimonial__floral-icon"></div>
+                <div class="testimonial__line"></div>
+              </div>
+            </div>
+            <div class="testimonial__media">
+              <video
+                id="customerVideo"
+                class="testimonial__video"
+                poster="./images/mandi-chicken.png" 
+              >
+                <source src="./videos/your-video.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <button id="playVideoBtn" class="testimonial__play-btn">
+                <i class="fa-solid fa-play"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer__container container">
+        <h2 class="footer__title">
+          WE READY TO HAVE YOU THE BEST DINING EXPERIENCES
+        </h2>
+
+        <div class="footer__info-grid">
+          <div class="footer__info-item">
+            <i class="fa-regular fa-clock footer__info-icon"></i>
+            <h3 class="footer__info-title">OPENING HOURS</h3>
+            <p class="footer__info-text">Monday - Sunday</p>
+            <p class="footer__info-text">9:00 AM to 11:30 PM</p>
+          </div>
+
+          <div class="footer__info-item">
+            <i class="fa-solid fa-phone-volume footer__info-icon"></i>
+            <h3 class="footer__info-title">LET'S TALK</h3>
+            <p class="footer__info-text">Phone: 1-800-222-4545</p>
+            <p class="footer__info-text">Fax: 1-800-222-4545</p>
+          </div>
+
+          <div class="footer__info-item">
+            <i class="fa-regular fa-envelope footer__info-icon"></i>
+            <h3 class="footer__info-title">BOOK A TABLE</h3>
+            <p class="footer__info-text">Email: demo@website.com</p>
+            <p class="footer__info-text">Support: support@website.com</p>
+          </div>
+
+          <div class="footer__info-item">
+            <i class="fa-solid fa-location-dot footer__info-icon"></i>
+            <h3 class="footer__info-title">OUR ADDRESS</h3>
+            <p class="footer__info-text">123 Stree New York City , United</p>
+            <p class="footer__info-text">States Of America.</p>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <div class="footer__socials">
+            <a href="#" class="footer__social-link" aria-label="Facebook"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="#" class="footer__social-link" aria-label="Twitter/X"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+            <a href="#" class="footer__social-link" aria-label="Instagram"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="#" class="footer__social-link" aria-label="LinkedIn"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+          </div>
+
+          <p class="footer__copyright">© 2023 All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
