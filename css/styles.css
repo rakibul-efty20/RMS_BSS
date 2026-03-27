@@ -7,13 +7,11 @@
 }
 
 :root {
-  /* Brand Colors from Figma */
   --primary-color: #febf00;
   --secondary-color: #bd2b2a;
   --text-dark: #0f172b;
   --text-light: #ffffff;
 
-  /* Fonts */
   --font-heading: "Bebas Neue", cursive;
   --font-body: "Inter", sans-serif;
 
@@ -1062,7 +1060,7 @@ img {
     flex-direction: column;
     gap:3rem;
   }
-  /* Show 2 items on tablet */
+ 
   .popular__card {
     flex: 0 0 calc((100% - 2rem) / 2); 
   }
